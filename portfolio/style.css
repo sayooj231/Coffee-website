@@ -1,0 +1,131 @@
+/* Gradients & backgrounds */
+.bg-gradient {
+    background: linear-gradient(90deg, #4158d0 0%, #c850c0 48%, #ffcc70 100%);
+  }
+  .hero-section {
+    min-height: 60vh;
+    background: linear-gradient(
+      135deg,
+      #4158d0 0%,
+      #c850c0 48%,
+      #ffcc70 100%
+    );
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  .gradient-text {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Animations */
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slidein {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes fadeUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animate-fade {
+    animation: fadein 1.5s ease;
+  }
+  .animate-slide {
+    animation: slidein 1.2s ease;
+  }
+  .animate-bounce {
+    animation: bounce 1.4s infinite;
+  }
+  .animate-float {
+    animation: float 2s infinite;
+  }
+  .animate-fade-up {
+    animation: fadeUp 1.2s ease forwards;
+  }
+  
+  /* Cards & profile image */
+  .portfolio-card {
+    border: none;
+    border-radius: 16px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+      box-shadow 0.3s;
+    background: #fff;
+  }
+  .portfolio-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 16px 32px rgba(66, 5, 77, 0.13), 0 2px 4px 0 rgba(204, 96, 175, 0.08);
+  }
+  
+  /* Navbar icon */
+  .portfolio-icon {
+    font-size: 2rem;
+  }
+  
+  /* Profile image */
+  .profile-img {
+    border: 6px solid #ffcc70;
+  }
+  
+  /* Footer */
+  footer.bg-gradient {
+    background: linear-gradient(90deg, #4158d0 0%, #c850c0 48%, #ffcc70 100%);
+  }
+  
+  /* Skill badges */
+  .skill-badge {
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 50px;
+    padding: 15px 25px;
+    color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+    cursor: default;
+    user-select: none;
+  }
+  .skill-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+  }
+  

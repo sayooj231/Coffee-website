@@ -1,16 +1,17 @@
 .navbar{
     background-color: rgb(24, 24, 24);
     padding: 10px;
-    height: 100px;
+    height: 60px;
   }
   .navbar-nav .nav-link{
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .nav-link i{
     font-size: 20px;
+    margin-top: 5px;
     
   }
   .container-fluid h1{
@@ -23,7 +24,7 @@
   }
   
   .first1{
-    background-image: url(/img/coffe2.jpeg);
+    background-image: url(/img/images-for-grandcoffee-website/banner-bg.png);
     background-size: cover;
     background-position: center;
     height: 700px; 
@@ -259,9 +260,12 @@
         background-color: white;
         color: black;
       }
+      .test{
+        padding: 30px;
+      }
 .test h1{
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
   color: orange;
   padding-left: 100px;
   font-size: 40px;
@@ -271,13 +275,15 @@
   font-size: 19px;
   font-weight: lighter;
   display: flex;
-  justify-content: left;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 .tbox{
   border-style: solid;
   margin: 10%;
   padding: 30px;
+}
+.tbox h1{
+  color: orange;
 }
 .last{
   display: grid;
@@ -315,4 +321,7 @@
 }
 .last2 a:hover{
   color: orange;
+}
+.carousel2 button{
+ margin-top: 20px;
 }

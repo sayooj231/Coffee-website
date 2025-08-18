@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #1a1a1a;
+  }
+  .navbar {
+    background: rgba(0,0,0,0.8);
+  }
+  .navbar a {
+    color: #f9f7f7;
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    color: #ff4757;
+    
+  }
+  .hero {
+    height: 100vh;
+    background:url(/img/home2.avif) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .section-title{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  .section-title:hover{
+    color:#ff4757 ;
+  }
+  .about1 p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    
+  }
+  .nav-link{
+    color: orange;
+  }
+  .progress {
+    height: 10px;
+  }
+  .skill2{
+   margin-top: 170px;
+   margin-bottom: 170px;
+  }
+  .sk2{
+    color: white;
+  }
+  .project-card {
+    transition: transform 0.3s;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  footer {
+    background: #111;
+    color: #aaa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+ 
+  .skill-card {
+transition: all 0.3s ease-in-out;
+background: #0d0d0d;
+padding: 30px;
+}
+.skill-card:hover {
+transform: translateY(-10px) scale(1.03);
+box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.skill-icon {
+transition: transform 0.3s, color 0.3s;
+}
+.skill-card:hover .skill-icon {
+transform: scale(1.2) rotate(-5deg);
+color: #101010; /* highlight effect */
+}
+
+.progress-bar {
+transition: width 1s ease-in-out;
+}
+.skill-card:hover .progress-bar {
+width: 100% !important; /* fills up smoothly on hover */
+}
+.contact1{
+    background-color: #1a1a1a;
+    color: white;
+}
+.prjt{
+    background-color: #1a1a1a;
+    color: white;
+}
+.carousel-btn {
+    font-size: 2rem;               
+    color: white;                 
+    background-color: #0a0a0a;     
+    border-radius: 50%;             
+    padding: 12px;                  
+    transition: transform 0.3s ease, background-color 0.3s ease; /* smooth hover */
+  }
+  
+  .carousel-btn:hover {
+    background-color: #fe0707;     
+    transform: scale(1.2);          
+  }
+  
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .hero .btn{
+    background-color: #201f1f;
+    color: white;
+  }
+  .hero .btn:hover{
+    color: #fe0707;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  .contact .btn:hover{
+    color: #fe0707;
+  }

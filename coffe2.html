@@ -11,7 +11,7 @@
    
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <h1>GrandCoffee</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,20 +23,19 @@
             <a class="nav-link"  href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About us</a>
+            <a class="nav-link" href="#abbt">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="#abbt2">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#abbt3">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="#abbt4">Contact us</a>
           </li>
           <li class="nav-item">
            <a class="nav-link" href="#">
-            <!-- <img src="img/search-icon.png"  alt="#" width="30px"> -->
             <i class="fa-solid fa-magnifying-glass"></i></a>
           </li>
         </ul>
@@ -87,7 +86,7 @@
     </button>
   </div>
   </div>
-  <div class="container1">
+  <div class="container1" id="abbt">
     <div class="about2">
      <h1>About Us</h1>
      <p>Full cleaning and housekeeping services for companies and households.</p>
@@ -98,7 +97,7 @@
 <img src="img/about-img.png" width="600px">
     </div>
   </div>
-  <div class="gallery">
+  <div class="gallery" id="abbt2">
     <h1>Our Gallery</h1>
     <p>Lorem Ipsum is simply dummy text of printing typesetting ststry lorem Ipsum the industry'ndard dummy text ever since of the 1500s, when an <br>unknown printer took a galley of type and scra make a type specimen book. It has</p>
 
@@ -128,7 +127,7 @@
     <button class="button1">See More</button>
   </div>
   <br>
-  <div class="serv1">
+  <div class="serv1" id="abbt3">
     <div class="serv2">
      <h1>Services</h1>
      <p>Typesetting industry lorem Ipsum is simply dummy text of the</p>
@@ -155,55 +154,62 @@
     </div>
   </div>
   <div class="test">
-  <h1>Testimonial</h1>
-  <p>Eeven slightly believable. If you are going to use a passage of Lorem Ipsum, you need to</p>
-  <div class="carousel2">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div style="margin-top: 20px;" class="carouselndicators">
-        <button style="color: orangered;  height: 10px; border-radius: 20px;"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button style="color: orangered;  height: 10px; border-radius: 20px;"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button style="color: orangered;  height: 10px; border-radius: 20px;"  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="tbox">
-            <div style="display: flex; gap: 20px;">
-          <h1>Monila</h1>
-          </div>
-          <p> many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="tbox">
-            <div style="display: flex; gap: 20px;">
-          <h1>Monila</h1>
-          </div>
-          <p> many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
-        </div>
-        </div>
-        <div class="carousel-item">
-          <div class="tbox">
-            <div style="display: flex; gap: 20px;">
-          <h1>Monila</h1>
-          </div>
-          <p> many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
-        </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <h1>Testimonial</h1>
+    <p>Even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to...</p>
     </div>
-     </div>
-     </div>  
+    <div class="carousel2">
+      <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+        
+        <!-- Indicators -->
+        <div class="carousel-indicators" style="margin-top: 20px;">
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: orangered; height: 10px; width: 10px; border-radius: 50%;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: orangered; height: 10px; width: 10px; border-radius: 50%;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: orangered; height: 10px; width: 10px; border-radius: 50%;"></button>
+        </div>
+  
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="tbox">
+              <div style="display: flex; gap: 20px;">
+                <h1>Monila</h1>
+              </div>
+              <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="tbox">
+              <div style="display: flex; gap: 20px;">
+                <h1>Monila</h1>
+              </div>
+              <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="tbox">
+              <div style="display: flex; gap: 20px;">
+                <h1>Monila</h1>
+              </div>
+              <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form...</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+  
+      </div>
+    </div>
  
   <br><br>
-  <h1 class="contact-h1">Contact Us</h1>
+  <h1 class="contact-h1" id="abbt4">Contact Us</h1>
   <br>
   <br>
   <section class="contact-section">
