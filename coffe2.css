@@ -24,7 +24,7 @@
   }
   
   .first1{
-    background-image: url(/img/images-for-grandcoffee-website/banner-bg.png);
+    background-image: url(/img/about-img.png);
     background-size: cover;
     background-position: center;
     height: 700px; 
@@ -152,7 +152,7 @@
     
     }
     .serv1{
-      background-image: url(/img/images-for-grandcoffee-website/services-bg.png);
+      background-image: url(img/images-for-grandcoffee-website/services-bg.png);
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
